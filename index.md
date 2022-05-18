@@ -1,37 +1,41 @@
-## Welcome to GitHub Pages
+# Documentation :
 
-You can use the [editor on GitHub](https://github.com/paulripault/paulripault.github.io/edit/main/index.md) to maintain and preview the content for your website in Markdown files.
+Liens utiles :
+  - https://github.com/alex-lri/DevOps_TP
+  - https://devopstp.web.app/
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+## tests unitaires
 
-### Markdown
+Les tests unitaires ont été les plus simples à intégrés au projet. Un simple gitHub Action a permis la vérification de leur bon fonctionnements.
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+## tests de qualité
 
-```markdown
-Syntax highlighted code block
+L'installation de Sonarcloud nous aura pris un peut de temps car nous sommes au départ partis sur SonarCube ce qui ne corresponds pas à ce qui est demandé.
 
-# Header 1
-## Header 2
-### Header 3
+## tests de sécurité
 
-- Bulleted
-- List
+La mise en place de Trivy nous aura pris le plus de temps. Même après avoir tout paramétré l'action nous retournais une erreur sans nous dire ce qui n'allait pas.
+Après plusieurs tentative on a réussi à faire fonctionner l'environnement une fois celui ci lié à firebase.
 
-1. Numbered
-2. List
+## build de l'application / Sauvegarde des artefacts
 
-**Bold** and _Italic_ and `Code` text
+Nous n'avons pas eu le temps d'approfondir cette partie
 
-[Link](url) and ![Image](src)
-```
+## Déploiement environnement Staging
 
-For more details see [Basic writing and formatting syntax](https://docs.github.com/en/github/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax).
+Le déploiement sur l'environnement de test s'effectue bien lors d'un push de notre applicartion (cf lien du site)
 
-### Jekyll Themes
+## Déploiement environnement de Prod
 
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/paulripault/paulripault.github.io/settings/pages). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
+L'environnement de prod n'a pas été mis en place par manque de temps
 
-### Support or Contact
+## Notification dans (mattermost, slack...) 
 
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
+La mise en place du bot discord a été plutôt rapide et intéressante.
+
+## Mise en place documentation
+
+Si vous arrivez à lire ce message c'est que cette doc a bien été mise en place.
+
+
+
